@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+
+#header{
+    background-color: rgba(0, 138, 180, 0.677);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#header p{
+    margin: 0;
+    margin-right: 0.8vw;
+    font-size: 40px;
+}
+
+
+
+#my{
+    transform: rotate(20deg)
+}
+
+#transform{
+    transform: translate(0px,25px)
+}   
+
+#and{
+    transform: scaleY(2.5)
+}
+    
+#transition{
+    transform: skew(20deg,10deg)
+}
+
+#site{
+    transform: rotateX(180deg);
+}
+
+
+
+
+
+#transitions{
+    margin: 5vh 5vw;
+    display: grid;
+    gap: 4vw;
+    grid-template-columns: 1fr 1fr;
+}
+
+#transitions button{
+    background-color: rgba(0, 255, 170, 0.273);
+    padding: 5vh;
+    font-size: 25px;
+    transition: transform 1.5s;
+}
+
+#flex-container{
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#flex-container button{
+    background-color: beige;
+}
