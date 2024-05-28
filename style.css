@@ -69,3 +69,130 @@ body{
 #flex-container button{
     background-color: beige;
 }
+
+
+
+
+
+
+
+
+
+#colorful{
+    margin: 3vh 2vw;
+    padding: 1vh 2vw;
+    border-radius: 1%;
+    text-align: center;
+    animation: colorChange 5s linear infinite;
+}
+
+@keyframes colorChange{
+    0%{
+        background-color: aqua;
+    }
+
+    20%{
+        background-color: red;
+    }
+
+    40%{
+        background-color: yellow;
+    }
+
+    60%{
+        background-color: green;
+    }
+
+    80%{
+        background-color: darkmagenta;
+    }
+
+    100%{
+        background-color: aqua;
+    }
+}
+
+#move{
+    padding: 1vh 1vw;
+    width: 5%;
+    background-color: aquamarine;
+    text-align: center;
+    animation: changeDestination 5s linear infinite
+}
+
+@keyframes changeDestination{
+    0%{
+        transform: translate(20px, 20px);
+    }
+
+    25%{
+        transform: translate(200px, 50px);
+    }
+
+    50%{
+        transform: translate(100px, 400px);
+    }
+
+    75%{
+        transform: translate(150px, 30px);
+    }
+
+    100%{
+        transform: translate(20px, 20px);
+    }
+}
+
+#rotate{
+    padding: 1vh 1vw;
+    width: 5%;
+    margin: -7vh 30vw;
+    background-color: aquamarine;
+    text-align: center;
+    animation: rotate 5s linear infinite
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+#canvas1{
+    margin: 5vh;
+    background-color: lightblue;
+    border: 2px solid;
+}
+
+#france{
+    margin: 5vh;
+    border: 2px solid
+}
+
+#img{
+    display: none;
+}
+
+#disney{
+    margin: 5vh;
+    background-color: rgb(234, 234, 234);
+}
+
+#ditto{
+    margin: 5vh;
+    background-color: rgb(234, 234, 234);
+}
+
+#nepal{
+    margin: 5vh;
+    background-color: rgb(234, 234, 234);
+}

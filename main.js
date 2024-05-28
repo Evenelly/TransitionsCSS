@@ -31,7 +31,6 @@ function TransitionValue(){
 
 function RotateFunction() {
     if(transitionValue === true){
-        console.log("test2")
         rotateAngle = 200 * rotateClick;
         rotate = document.getElementById("rotate")
         rotate.setAttribute("style", "transform: rotate(" + rotateAngle + "deg)")
